@@ -212,3 +212,25 @@ a:active{
 a:visited{
 	color:black;
 }
+
+
+
+@media only screen and (max-width: 620px) {
+
+#main_container, 
+#nav_top, 
+.nav_top_left, 
+.nav_top_right_user, 
+.nav_top_right_3dots, 
+.nav_top_right,
+#search_box,
+.search_box_img_search,
+.search_box_img_mike,
+.search_box_lens,
+#foot_nav,
+.country,
+.nav_bottom_left,
+.nav_bottom_right{
+	width: 100%;
+	}
+}
